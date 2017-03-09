@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+#container {
+  width: 100%;
+  position: relative;
+}
+
+#skyline {
+  width: 100%;
+}
+
+#logo {
+    margin-left: 200px;
+    margin-top: -74px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid #ffffff;
+}
+
+.bottomcontainer {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 70px;
+  
+}
+
+.column1 {
+  width: 39%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.column2 {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#classroom {
+  width: 456px;
+}
+
+.Happenings {
+  background: white;
+  color: grey;
+}
+
+.Author {
+  color: grey;
+  font-style: italic;
+  font-size: 12px;
+}
+
+p {
+  background: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.TIYHouston, .Title {
+  font-weight: bold;
+}
+
+.Title {
+  font-size: 28px;
+}
+
+.Search {
+  font-weight: bold;
+  color: grey;
+  border-top: 1px solid grey;
+  padding: 20px 0px 0px 0px;
+}
+
+#search {
+
+}
+
+#search input[type="text"] {
+    border: 1px solid #d1d1d1;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #bebebe;
+    width: 150px;
+    padding: 6px 6px 6px 3px;
+    }
+
+#search input[type="text"]:focus {
+    width: 200px;
+    }
+
+.tophalf {
+  color: black;
+  font-size: 14px;
+  border-bottom: 1px solid #cccccc;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 5px;
+}
+.bottomhalf {
+  color: black;
+  display: inline-block;
+}
+.left {
+  color: grey;
+  display: inline-block;
+}
+ .center {
+  color: black;
+  display: inline-block;
+  padding: 0 1em;
+}
+  
+.right {
+  color: grey;
+  display: inline-block;
+}
+
+#stickytiylogo {
+  width: 45px;
+  display: block;
+}
+
+.stickybox{
+  position: fixed;
+  background: white;
+  bottom: 0;
+  right: 0;
+  width: 25%;
+  padding: 0px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+#tiyhouston {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#theironyard {
+  color: grey;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.page-body {
+  width: 1000px;
+  margin: 0 auto;
+  margin-left: 200px;
+}
+.banner {
+  max-width: 1000px;
+}
